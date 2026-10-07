@@ -38,3 +38,5 @@ A medição registra o clique que abre o WhatsApp; não confirma que a pessoa en
 5. Atualizar o domínio canónico em `index.html`, `robots.txt` e `sitemap.xml` se o endereço final for diferente.
 
 O site foi revisto em 7 de outubro de 2026 contra as orientações oficiais sobre verificação de anunciante, verificação de serviços financeiros, deturpação, destino que não funciona e destino não correspondente. Isso não garante aprovação: a decisão também depende da conta, do anúncio, da segmentação, do histórico da conta e da documentação apresentada ao Google.
+
+Tracking deployment verified: GA4/GTM and WhatsApp click event included.
