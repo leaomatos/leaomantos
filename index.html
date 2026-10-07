@@ -45,6 +45,27 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-M54FVN9T');</script>
   <!-- End Google Tag Manager -->
+  <!-- Event snippet for Contato conversion -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-18499128051/6b9ACOH5uZQdEPOVifVE',
+          'value': 1.0,
+          'currency': 'BRL',
+          'event_callback': callback
+        });
+        return false;
+      }
+      if (typeof(url) != 'undefined') window.location = url;
+      return false;
+    }
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->

@@ -26,8 +26,9 @@ Ao clicar num botão WhatsApp, o site envia:
 
 - GA4: evento `whatsapp_click`;
 - `dataLayer`: evento `whatsapp_click`, com `conversion_type: whatsapp`.
+- Google Ads: conversão direta `AW-18499128051/6b9ACOH5uZQdEPOVifVE`, com valor `1.0 BRL`.
 
-A medição registra o clique que abre o WhatsApp; não confirma que a pessoa enviou a mensagem. Para usar como conversão no Google Ads, marque `whatsapp_click` como evento principal no GA4 e importe-o no Google Ads, ou crie no Google Tag Manager um acionador de evento personalizado com o nome `whatsapp_click`. Um snippet direto de conversão do Google Ads só pode ser instalado quando o Google fornecer o respetivo `AW-...` e o `label` da conversão.
+A medição registra o clique que abre o WhatsApp; não confirma que a pessoa enviou a mensagem. A conversão direta usa o snippet fornecido pelo Google Ads e é disparada somente nos dois botões WhatsApp. Se também importar `whatsapp_click` do GA4 como conversão, não conte os dois eventos como conversões principais simultaneamente, para evitar duplicidade.
 
 ## Antes de ativar campanhas
 
