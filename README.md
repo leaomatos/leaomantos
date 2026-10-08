@@ -20,7 +20,7 @@ Landing page estática mobile-first inspirada no layout de referência enviado p
 
 ## Medição do WhatsApp
 
-A tag GA4 `G-2F3N7WDVNZ` e o Google Tag Manager `GTM-M54FVN9T` estão instalados nas quatro páginas HTML. Os dois botões da página inicial usam o WhatsApp oficial `+55 75 93300-7637`.
+A tag GA4 `G-2F3N7WDVNZ` e o Google Tag Manager `GTM-M54FVN9T` estão instalados nas quatro páginas HTML. Os dois botões da página inicial usam o WhatsApp oficial `+55 21 98096-4849`.
 
 Ao clicar num botão WhatsApp, o site envia:
 
