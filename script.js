@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const whatsappUrl = element => {
     if (element.tagName === 'A' && element.href && element.href.includes('wa.me/')) return element.href;
     const message = element.dataset.whatsappMessage || 'Olá, Gostaria de solicitar atendimento Leão Matos';
-    return `https://wa.me/5511972938984?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/551167147042?text=${encodeURIComponent(message)}`;
   };
 
   document.querySelectorAll('[data-whatsapp="true"]').forEach(link => {
